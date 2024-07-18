@@ -1,0 +1,429 @@
+/** ----- reset -----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/** ----- header ----- */
+
+header {
+    background-color: rgb(245, 243, 241);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+    color: rgb(84, 121, 9);
+    font-size: 60px;
+
+}
+
+header h1 em {
+    color: rgb(199, 18, 18);
+    font-size: 40px;
+    font-family: "Playwrite NL", cursive;
+}
+
+.titulix {
+    margin-right: 200px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header h2 {
+    font-size: px;
+    text-align: center;
+    color: rgb(84, 121, 9);
+    padding: 60px;
+    margin-right: 300px;
+}
+
+header h2 em {
+    color: rgb(199, 18, 18);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(58, 50, 50);
+    font-size: 24px;
+    font-family: serif;
+}
+
+.list:hover {
+    color: darkgray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+ul li {
+    display: inline;
+    margin: 40px;
+}
+
+
+
+
+/** ------ main ------ */
+
+main {
+    background-color: rgb(176, 216, 176);
+}
+
+main h3 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(91, 131, 11);
+    margin: 10px;
+
+}
+
+main h3 em {
+    color: rgb(199, 18, 18);
+}
+
+.avionix {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.chismix {
+
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    margin: 20px;
+}
+
+.fotoDeco {
+    width: 100%;
+    height: 70vh;
+}
+
+.iframeIndex {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid crimson;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.telefonos {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.flexContainer div {
+    border: 1px solid crimson;
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flexContainer h5 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.flexContainer img {
+    width: 250px;
+    height: 250px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 50vh;
+}
+
+.botones {
+    text-decoration: none;
+    font-family: cursive;
+    background-color: red;
+    color: rgb(245, 243, 241);
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    border: 2px rgb(84, 121, 9) solid;
+    border-radius: 20px;
+}
+
+.botones:hover {
+    border: solid 8px;
+    border-color: rgb(84, 121, 9);
+}
+
+.tarjetas {
+    padding: 15px;
+}
+
+.infoTarjet {
+    margin: 500px 20px 0 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.tarjetbg {
+    background-color: rgba(98, 216, 98, 0.397);
+}
+
+.pHotel {
+    margin-bottom: auto;
+}
+
+.subir {
+    font-family: cursive;
+    color: tomato;
+    text-decoration: none;
+    padding: 2px 8px 8px 8px;
+    border-radius: 20px;
+}
+
+.subir:hover {
+    background-color: tomato;
+    color: rgb(176, 216, 176);
+}
+
+
+.fotosHistoricas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.fotosHistoricasDos {
+    width: 100%;
+    height: 400px;
+    margin-right: 160px;
+    object-fit: cover;
+}
+
+
+.gridHistoria {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: (3, 1fr);
+}
+
+.gridHis {
+    padding: 20px;
+    text-align: center;
+}
+
+.flexContainerDos {
+    padding: 20px;
+    height: 50vh;
+}
+
+h5 {
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+.gridCont {
+    width: 100%;
+    height: 70vh;
+}
+
+.gridContDos {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.watsapp {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+.divGridContDos {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridContTres {
+    border-top: 3px solid crimson;
+    padding: 20px;
+}
+
+.dosBotones {
+    font-family: cursive;
+    background-color: red;
+    color: rgb(245, 243, 241);
+    padding: 10px;
+    font-size: 15px;
+    border: 2px rgb(84, 121, 9) solid;
+    margin: 0 10px 10px 10px;
+}
+
+.dosBotones:hover {
+    border: solid 8px;
+    border-color: rgb(84, 121, 9);
+}
+
+.texMap {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+
+/** ------ footer ----- */
+
+footer {
+    background-color: rgb(245, 243, 241);
+    height: 200px;
+}
+
+footer section div h4 {
+    color: rgb(84, 121, 9);
+    font-size: 30px;
+}
+
+footer section div h4 em {
+    color: rgb(199, 18, 18);
+    font-size: 20px;
+    font-family: "Playwrite NL";
+}
+
+.footerix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+footer img {
+    width: 60px;
+    height: 60px;
+    margin: 35px;
+}
+
+.hcuatro {
+    margin: 35px;
+}
+
+
+
+
+/*----media queries del INDEX , no puedo con ese navegador de bootstrap----*/
+
+@media screen and (max-width: 1475px) {
+    .iframeIndex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    .iframeQueries {
+        width: 250px;
+        height: 250px;
+    }
+
+    .fotoDeco {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .iframeQueries {
+        width: 150px;
+        height: 150px;
+    }
+
+    .avionix {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    main h3 {
+        font-size: 25px;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+        margin: 35px;
+
+    }
+
+    .fotoDeco {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+}
+
+/*----media queries de Historia ----*/
+
+@media screen and (max-width: 1475px) {
+    .fotosHistoricasDos {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .fotosHistoricasDos {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 831px) {
+    .texto {
+        flex-direction: column;
+    }
+    .fotosHistoricasDos {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 621px){
+    .fotosHistoricas{
+        flex-direction: column;
+    }
+}
