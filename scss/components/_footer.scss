@@ -1,0 +1,66 @@
+footer {
+    background-color: rgb(245, 243, 241);
+    height: 200px;
+
+    .footerix {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section {
+        div {
+            .hcuatro {
+                margin: 35px;
+            }
+
+            h4 {
+                color: rgb(84, 121, 9);
+                font-size: 30px;
+                margin: 30px;
+
+                em {
+                    color: rgb(199, 18, 18);
+                    font-size: 20px;
+                    font-family: "Playwrite NL";
+                }
+            }
+        }
+
+        div {
+
+
+            img {
+                width: 60px;
+                height: 60px;
+                margin: 35px;
+            }
+
+
+
+            img {
+                width: 60px;
+                height: 60px;
+                margin: 35px;
+            }
+        }
+    }
+
+
+.footerTalon {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family:monospace;
+}
+.netlify{
+    text-decoration: none;
+    color: black;
+
+&:hover {
+    color: blue;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+}}
+}

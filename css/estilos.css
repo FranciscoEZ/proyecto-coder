@@ -1,0 +1,354 @@
+/** ----- reset -----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #f5f3f1;
+  position: sticky;
+  top: 0;
+  z-index: 1; }
+  header nav div .titulix {
+    margin-right: 200px;
+    padding: 20px;
+    text-decoration: none; }
+  header nav div h1 {
+    color: #547909;
+    font-size: 60px; }
+    header nav div h1 em {
+      color: #c71212;
+      font-size: 40px;
+      font-family: "Playwrite NL", cursive; }
+  header nav div div ul li {
+    display: inline;
+    margin: 40px; }
+    header nav div div ul li .list {
+      text-decoration: none;
+      color: #3a3232;
+      font-size: 24px;
+      font-family: serif; }
+      header nav div div ul li .list:hover {
+        color: darkgray;
+        background-color: white;
+        border-radius: 20px;
+        padding: 8px; }
+
+main {
+  background-color: #b0d8b0; }
+  main section .fotoDeco {
+    width: 100%;
+    height: 70vh; }
+  main .chismix {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    margin: 20px; }
+    main .chismix .avionix {
+      width: 60px;
+      height: 60px;
+      margin: 10px; }
+    main .chismix h2 {
+      font-size: 40px;
+      text-align: center;
+      color: #5b830b;
+      margin: 10px; }
+      main .chismix h2 em {
+        color: #c71212; }
+    main .chismix .avionix {
+      width: 60px;
+      height: 60px;
+      margin: 10px; }
+  main section .iframindex {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid crimson; }
+  main section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px; }
+    main section div p {
+      font-size: 30px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+main .flexContainer div {
+  border: 1px solid crimson;
+  width: 300px;
+  height: 370px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+main .flexContainer h5 {
+  font-size: 25px;
+  margin-bottom: 25px; }
+
+main .flexContainer img {
+  width: 250px;
+  height: 250px; }
+
+main .flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 50vh; }
+
+main .tarjetbg {
+  background-color: rgba(98, 216, 98, 0.397); }
+
+main .tarjetas {
+  padding: 15px; }
+
+main .botones {
+  text-decoration: none;
+  font-family: cursive;
+  background-color: red;
+  color: #f5f3f1;
+  padding: 10px;
+  margin: 20px;
+  font-size: 15px;
+  border: 2px #547909 solid;
+  border-radius: 20px; }
+
+main .botones:hover {
+  border: solid 8px;
+  border-color: #547909; }
+
+main .infoTarjet {
+  margin: 500px 20px 0 20px;
+  font-family: sans-serif;
+  font-size: 20px; }
+
+main .subir {
+  font-family: cursive;
+  color: tomato;
+  text-decoration: none;
+  padding: 2px 8px 8px 8px;
+  border-radius: 20px; }
+
+main .subir:hover {
+  background-color: tomato;
+  color: #b0d8b0; }
+
+main .pHotel {
+  margin-bottom: auto; }
+
+main .gridHistoria {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 3, 1fr; }
+
+main section .fotosHistoricas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+main section div .gridHis {
+  padding: 20px;
+  text-align: center; }
+  main section div .gridHis img .fotosHistoricasDos {
+    width: 100%;
+    height: 400px;
+    margin-right: 160px;
+    object-fit: cover; }
+
+main section .texto {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 25px; }
+
+main section div .gridHis {
+  padding: 20px;
+  text-align: center; }
+
+main section div .gridHis {
+  padding: 20px;
+  text-align: center; }
+
+main section div .gridHis {
+  padding: 20px;
+  text-align: center; }
+
+main section .jueguitos {
+  text-decoration: none;
+  font-family: fantasy;
+  font-size: 30px;
+  color: antiquewhite;
+  background-color: black;
+  animation: slidein 10s ease-in-out; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0;
+    width: 100%; } }
+
+main section section .gridnovedades {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main section .fotoNovedades {
+  width: 400px;
+  height: 400px;
+  transition: 3s;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 10px #e08484; }
+
+main section .fotoNovedades:hover {
+  transform: rotateZ(2deg); }
+
+main section .textoNovedad {
+  font-size: 30px;
+  font-family: "Playwrite NL", cursive; }
+
+main .gridCont {
+  width: 100%;
+  height: 70vh; }
+
+main .gridContDos {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: monospace;
+  font-size: 30px; }
+
+main .divGridContDos {
+  display: flex;
+  flex-direction: column; }
+
+main .watsapp {
+  width: 50px;
+  height: 50px;
+  margin: 50px;
+  transition: 2s; }
+
+main .watsapp:hover {
+  transform: rotateZ(360deg); }
+
+main .dosBotones {
+  font-family: cursive;
+  background-color: red;
+  color: #f5f3f1;
+  padding: 10px;
+  font-size: 15px;
+  border: 2px #547909 solid;
+  margin: 0 10px 10px 10px; }
+
+main .dosBotones:hover {
+  border: solid 8px;
+  border-color: #547909; }
+
+main .gridContTres {
+  border-top: 3px solid crimson;
+  padding: 20px; }
+
+main .texMap {
+  font-family: fantasy;
+  font-size: 30px; }
+
+footer {
+  background-color: #f5f3f1;
+  height: 200px; }
+  footer .footerix {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  footer section div .hcuatro {
+    margin: 35px; }
+  footer section div h4 {
+    color: #547909;
+    font-size: 30px;
+    margin: 30px; }
+    footer section div h4 em {
+      color: #c71212;
+      font-size: 20px;
+      font-family: "Playwrite NL"; }
+  footer section div img {
+    width: 60px;
+    height: 60px;
+    margin: 35px; }
+  footer section div img {
+    width: 60px;
+    height: 60px;
+    margin: 35px; }
+  footer .footerTalon {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: monospace; }
+  footer .netlify {
+    text-decoration: none;
+    color: black; }
+    footer .netlify:hover {
+      color: blue;
+      background-color: white;
+      border-radius: 20px;
+      padding: 8px; }
+
+/*----media queries del INDEX , no puedo con ese navegador de bootstrap----*/
+@media screen and (max-width: 1475px) {
+  .iframeIndex {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 599px) {
+  .iframeQueries {
+    width: 250px;
+    height: 250px; }
+  .fotoDeco {
+    width: 100%;
+    height: 50vh; } }
+
+@media screen and (max-width: 504px) {
+  .iframeQueries {
+    width: 150px;
+    height: 150px; }
+  .avionix {
+    width: 40px;
+    height: 40px;
+    margin: 10px; }
+  main h3 {
+    font-size: 25px; }
+  footer img {
+    width: 40px;
+    height: 40px;
+    margin: 35px; }
+  .fotoDeco {
+    width: 100%;
+    height: 40vh; }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; } }
+
+/*----media queries de Historia ----*/
+@media screen and (max-width: 1475px) {
+  .fotosHistoricasDos {
+    width: 100%;
+    height: 300px; } }
+
+@media screen and (max-width: 1155px) {
+  .fotosHistoricasDos {
+    width: 100%;
+    height: 200px; } }
+
+@media screen and (max-width: 831px) {
+  .texto {
+    flex-direction: column; }
+  .fotosHistoricasDos {
+    width: 100%;
+    height: 150px; } }
+
+@media screen and (max-width: 621px) {
+  .fotosHistoricas {
+    flex-direction: column; } }

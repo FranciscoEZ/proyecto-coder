@@ -1,0 +1,92 @@
+/*----media queries del INDEX , no puedo con ese navegador de bootstrap----*/
+
+@media screen and (max-width: 1475px) {
+    .iframeIndex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    .iframeQueries {
+        width: 250px;
+        height: 250px;
+    }
+
+    .fotoDeco {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .iframeQueries {
+        width: 150px;
+        height: 150px;
+    }
+
+    .avionix {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    main h3 {
+        font-size: 25px;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+        margin: 35px;
+
+    }
+
+    .fotoDeco {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+}
+
+
+
+/*----media queries de Historia ----*/
+
+@media screen and (max-width: 1475px) {
+    .fotosHistoricasDos {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .fotosHistoricasDos {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 831px) {
+    .texto {
+        flex-direction: column;
+    }
+
+    .fotosHistoricasDos {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .fotosHistoricas {
+        flex-direction: column;
+    }
+}
