@@ -7,6 +7,12 @@
     }
 }
 
+@media screen and (max-width: 1151px) {
+    .iframeIndex {
+        display: flex;
+        align-items: center;
+    }
+}
 
 @media screen and (max-width: 599px) {
     .iframeQueries {
@@ -56,37 +62,79 @@
 
 }
 
+@media screen and (max-width: 550px) {
+    .footerTalon {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 
-/*----media queries de Historia ----*/
+//  ----  MQ. de Utilidades ---- *//
+
+@media screen and (max-width: 942px) {
+    .infoTarjet {
+        font-size: 20px;
+
+    }
+
+    .infoTarjetP {
+        font-size: 10px;
+
+    }
+
+    .subir {
+        font-size: 8px;
+
+    }
+
+}
+
+
+
+
+//  ----  MQ. de Novedades ---- *//
 
 @media screen and (max-width: 1475px) {
-    .fotosHistoricasDos {
-        width: 100%;
+    .fotoNovedades {
+        width: 300px;
         height: 300px;
     }
-}
 
-@media screen and (max-width: 1155px) {
-    .fotosHistoricasDos {
-        width: 100%;
-        height: 200px;
+    .textoNovedad {
+        font-size: 20px;
     }
 }
 
-@media screen and (max-width: 831px) {
-    .texto {
-        flex-direction: column;
-    }
+//  ----  MQ. de Contacto ---- *//
 
-    .fotosHistoricasDos {
-        width: 100%;
-        height: 150px;
+@media screen and (max-width: 1486px) {
+    main {
+        .gridCont {
+            width: 100%;
+            height: 50vh;
+        }
+
     }
 }
 
-@media screen and (max-width: 621px) {
-    .fotosHistoricas {
+.gridContDos {
+    font-size: 20px;
+}
+
+.watsapp {
+    width: 40px;
+    height: 40px;
+}
+
+
+.texMap {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 721px) {
+    .gridContDos {
+        display: flex;
         flex-direction: column;
     }
 }

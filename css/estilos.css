@@ -36,7 +36,7 @@ header {
 
 main {
   background-color: #b0d8b0; }
-  main section .fotoDeco {
+  main .fotoDeco {
     width: 100%;
     height: 70vh; }
   main .chismix {
@@ -121,14 +121,18 @@ main .botones:hover {
 main .infoTarjet {
   margin: 500px 20px 0 20px;
   font-family: sans-serif;
-  font-size: 20px; }
+  font-size: 40px; }
+
+main .infoTarjetP {
+  font-size: 30px; }
 
 main .subir {
   font-family: cursive;
   color: tomato;
   text-decoration: none;
   padding: 2px 8px 8px 8px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  font-size: 15px; }
 
 main .subir:hover {
   background-color: tomato;
@@ -137,43 +141,15 @@ main .subir:hover {
 main .pHotel {
   margin-bottom: auto; }
 
-main .gridHistoria {
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: 3, 1fr; }
+main .fotosHistoricasDos {
+  width: 100%;
+  height: 400px;
+  margin-right: 160px;
+  object-fit: cover; }
 
-main section .fotosHistoricas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
-main section div .gridHis {
-  padding: 20px;
-  text-align: center; }
-  main section div .gridHis img .fotosHistoricasDos {
-    width: 100%;
-    height: 400px;
-    margin-right: 160px;
-    object-fit: cover; }
-
-main section .texto {
-  font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 25px; }
-
-main section div .gridHis {
-  padding: 20px;
-  text-align: center; }
-
-main section div .gridHis {
-  padding: 20px;
-  text-align: center; }
-
-main section div .gridHis {
-  padding: 20px;
-  text-align: center; }
+main .textoHis {
+  font-family: monospace;
+  font-size: 20px; }
 
 main section .jueguitos {
   text-decoration: none;
@@ -199,6 +175,7 @@ main section section .gridnovedades {
 main section .fotoNovedades {
   width: 400px;
   height: 400px;
+  margin: 20px;
   transition: 3s;
   background-color: #fff;
   box-shadow: 0px 0px 20px 10px #e08484; }
@@ -208,7 +185,8 @@ main section .fotoNovedades:hover {
 
 main section .textoNovedad {
   font-size: 30px;
-  font-family: "Playwrite NL", cursive; }
+  font-family: "Playwrite NL", cursive;
+  margin: 20px; }
 
 main .gridCont {
   width: 100%;
@@ -301,6 +279,11 @@ footer {
     display: flex;
     flex-wrap: wrap; } }
 
+@media screen and (max-width: 1151px) {
+  .iframeIndex {
+    display: flex;
+    align-items: center; } }
+
 @media screen and (max-width: 599px) {
   .iframeQueries {
     width: 250px;
@@ -331,24 +314,42 @@ footer {
     align-items: center;
     margin: 10px; } }
 
-/*----media queries de Historia ----*/
+@media screen and (max-width: 550px) {
+  .footerTalon {
+    display: flex;
+    flex-wrap: wrap; } }
+
+@media screen and (max-width: 942px) {
+  .infoTarjet {
+    font-size: 20px; }
+  .infoTarjetP {
+    font-size: 10px; }
+  .subir {
+    font-size: 8px; } }
+
 @media screen and (max-width: 1475px) {
-  .fotosHistoricasDos {
-    width: 100%;
-    height: 300px; } }
+  .fotoNovedades {
+    width: 300px;
+    height: 300px; }
+  .textoNovedad {
+    font-size: 20px; } }
 
-@media screen and (max-width: 1155px) {
-  .fotosHistoricasDos {
+@media screen and (max-width: 1486px) {
+  main .gridCont {
     width: 100%;
-    height: 200px; } }
+    height: 50vh; } }
 
-@media screen and (max-width: 831px) {
-  .texto {
-    flex-direction: column; }
-  .fotosHistoricasDos {
-    width: 100%;
-    height: 150px; } }
+.gridContDos {
+  font-size: 20px; }
 
-@media screen and (max-width: 621px) {
-  .fotosHistoricas {
+.watsapp {
+  width: 40px;
+  height: 40px; }
+
+.texMap {
+  font-size: 20px; }
+
+@media screen and (max-width: 721px) {
+  .gridContDos {
+    display: flex;
     flex-direction: column; } }
